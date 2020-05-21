@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = {"Mohieddine Zarif" => "mohieddine.zarif@gotocme.com"}
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.1'
-  s.source       = { :git => "https://github.com/Digicel-Sportsmax/CleengLoginDigicel.git", :tag => 'ios-' + s.version.to_s }
+  s.source       = { :git => "https://github.com/Digicel-Sportsmax/CleengLoginDigicel.git", :tag => s.version.to_s }
   s.source_files = 'iOS/CleengLogin/**/*.{swift,h,m}'
   s.requires_arc = true
   s.static_framework = true
